@@ -5,7 +5,7 @@
 #تنشر اذكر المصدر لا تصير فرخ#
 //==========//
 ob_start();
-define('API_KEY','توكن');
+define('API_KEY','6871994764:AAHb1ovQpJyAcGH9kjLgxgVwh7W7xL869A0');
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 function bot($method,$datas=[]){
 $i5zzz = http_build_query($datas);
@@ -32,7 +32,7 @@ $tn = file_get_contents("tnb.txt");
 $ban = file_get_contents("ban.txt");
 $exb = explode("\n",$ban);
 $adch ="@isbbb"; #معرف قناة الاعلانات#
-$rembo ="890009521"; #ايديك#
+$rembo ="6581601855"; #ايديك#
 $m = explode("\n",file_get_contents("member.txt"));
 $m1 = count($m)-1;
 if($message and !in_array($id, $m)){
